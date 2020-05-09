@@ -1,0 +1,48 @@
+
+.content-1300{
+  padding-top: .3rem;
+  background-color: #051923;
+  position: relative;
+  padding-left:400px;
+  box-sizing: border-box;
+  height: 600px;
+}
+a.button{
+  display: inline-flex;
+  color: #faefff;
+  border: 2px solid #0582ca;
+  text-align: center;
+  padding: 12px 28px;
+  padding-right: 30px;
+  cursor: pointer;
+  vertical-align:middle;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all .2s linear;
+}
+.button-group-wrapper {
+box-sizing: border-box;
+float:center;
+padding-left: 350px;
+padding-top: 30px;
+}
+p.seccion-info-pa{
+  display: block;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 300;
+  color: #bfd1df;
+  padding:.1rem 4rem 0rem .1rem;
+  margin-left: 0px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+h2.section-title{
+  font-size: 30px;
+  line-height: 100%;
+  margin: 0 0 .1rem;
+  color: #0582ca;
+  box-sizing: border-box;
+}

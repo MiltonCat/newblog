@@ -1,0 +1,90 @@
+
+.main {
+  padding-top: 1rem;
+  background-color: #051923;
+  position: relative;
+  padding-left:400px;
+  box-sizing: border-box;
+  height: 800px;
+ 
+}
+
+h2.row{
+  color:#0582ca;
+  text-align:center;
+  padding-left:30px;
+  font-size: 30px;
+}
+
+
+.datos{
+  width: 100%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.datos p{
+  padding-left:270px;
+  padding-top: 20px;
+  color:#fff;
+  font-size: 20px;
+  text-align: left;
+}
+p.section-info{
+  display: block;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 300;
+  color: #bfd1df;
+  padding:.1rem 4rem 0rem .1rem;
+  margin-left: 0px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+.one-half-resp{
+  width: 19%;
+  margin-right: 22%;
+  box-sizing: border-box;
+  padding: 1.5em;
+  float:right;
+}
+.skill{
+  box-sizing: border-box;
+  padding: .1rem .1rem 1.5rem 1.5rem;
+  float:right;
+  height: 190px;
+}
+.skill-holder{
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  margin:10px;
+}
+.skill-image img{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  margin: 2px;
+  box-sizing: border-box;
+}
+.skill-text{
+  width: 190px;
+  overflow: hidden;
+  margin:10px;
+  padding: .1rem;
+}
+.skill-text span{
+  width: 100px;
+  display: flex;
+  padding: 10px;
+  font-size: 22px;
+  line-height: 35px;
+  box-sizing: border-box;
+  font-weight: 300;
+  color: #bfd1df
+}
